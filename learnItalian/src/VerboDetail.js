@@ -27,62 +27,6 @@ class VerboDetail extends React.Component {
       sinOPlu
     );
   }
-  /*
-  cargar() {
-    let unoSing = ItVerbs.getConjugation(
-      ItalianVerbsList,
-      this.props.verbo,
-      this.props.tiempo,
-      1,
-      "S"
-    );
-    let dosSing = ItVerbs.getConjugation(
-      ItalianVerbsList,
-      this.props.verbo,
-      this.props.tiempo,
-      2,
-      "S"
-    );
-    let tresSing = ItVerbs.getConjugation(
-      ItalianVerbsList,
-      this.props.verbo,
-      this.props.tiempo,
-      3,
-      "S"
-    );
-
-    let unoPlu = ItVerbs.getConjugation(
-      ItalianVerbsList,
-      this.props.verbo,
-      this.props.tiempo,
-      1,
-      "P"
-    );
-    let dosPlu = ItVerbs.getConjugation(
-      ItalianVerbsList,
-      this.props.verbo,
-      this.props.tiempo,
-      2,
-      "P"
-    );
-    let tresPlu = ItVerbs.getConjugation(
-      ItalianVerbsList,
-      this.props.verbo,
-      this.props.tiempo,
-      3,
-      "P"
-    );
-
-    this.setState({
-      unoS: unoSing,
-      dosS: dosSing,
-      tresS: tresSing,
-      unoP: unoPlu,
-      dosP: dosPlu,
-      tresP: tresPlu,
-    });
-  }
-  */
 
   render() {
     return (
